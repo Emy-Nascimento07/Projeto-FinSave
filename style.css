@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #e4ffde;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+header .logo {
+    margin-right: 20px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 150px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #28a745;
+}
+
+header nav a.active {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 5px;
+}
+
+header .cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header .cta-button:hover {
+    background-color: #218838;
+}
+
+
+.formulario {
+display: block;
+  width: 550px;
+  margin: 0 ;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(243, 255, 245);
+    margin: 0 auto;
+text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea, select {
+  width: 95%;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 78);
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: rgb(102, 236, 131);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(57, 163, 80);
+}
+
+button[type="reset"] {
+  background-color: rgb(167, 167, 167);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="reset"]:hover {
+  background-color: gray;
+}
+
+.consentimento {
+  margin-bottom: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.consentimento label {
+    white-space: nowrap;
+}
+
+input#termos {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 4px 8px rgb(153, 248, 191);
+    font-size: 40px;
+}
+
+h2 {    
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.apresentação p {
+    text-align: center;
+    font-size: 18px;
+    color: #00cc03;
+    font-weight: bold;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-around; 
+    gap: 30px; 
+    max-width: 800px; 
+    margin: 30px auto; 
+}
+.caixa-item {
+    flex: 1; 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+.noticia {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+.legenda {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+button.cta-contato {
+    background-color: #61da43;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-contato:hover {
+    background-color: #219a14;
+}
+
+#stats-section-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2px 20px;
+    background-color: #FFFFFF;
+}
+
+.stat-icon-item {
+    text-align: center;
+    flex-basis: 250px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.stat-icon-item:hover {
+    transform: scale(1.05); 
+}
+
+.stat-icon-item .fas {
+    font-size: 45px; 
+    color: #28a745; 
+    margin-bottom: 20px;
+}
+
+.numero-estatistica {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333; 
+    margin: 0;
+}
+
+.stat-label {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#dores-cliente {
+    padding: 80px 20px;
+    background-color: #f8fcf9; /* Fundo verde bem clarinho, quase branco */
+    text-align: center;
+}
+
+#dores-cliente h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#dores-cliente .subtitulo {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 50px auto; 
+}
+
+.cards-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.card-dor {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    flex-basis: 250px; 
+    border-top: 4px solid #e0fde6; 
+}
+
+.card-dor:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-top-color: #28a745; 
+}
+
+
+.card-dor i {
+    font-size: 3em;
+    color: #28a745; 
+    margin-bottom: 20px;
+}
+
+
+.card-dor p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+#dores-cliente .texto-final {
+    margin-top: 50px;
+    font-size: 21px;
+    color: #333;
+}
+
+#blog h2 {
+    font-size: 28px;
+    color: #78ef46;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.steps-guide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.step-item {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+.step-number {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 25%; 
+    background-color: #e0fde6;
+    color: var(--step-number-text);
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-top: 2px;
+}
+
+.step-content h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-bottom: 5px;
+}
