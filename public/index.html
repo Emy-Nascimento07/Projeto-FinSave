@@ -149,98 +149,137 @@
     </section>
 
     <section id="blog" class="secao">
+
+        <section class="secao-pesquisa">
+            <h2>Encontre o que precisa:</h2>
+
+            <form id="form-pesquisa">
+                <label for="barra-pesquisa">Pesquisar:</label>
+
+                <input type="search" id="barra-pesquisa" placeholder="Digite um termo..." list="sugestoes-blog">
+
+                <datalist id="sugestoes-blog">
+
+                    <option value="Mercado financeiro reduz previsão da inflação para 4,7%"></option>
+                    <option value="Dólar opera em queda com política monetária dos EUA no radar; bolsa avança"></option>
+                    <option value="Como economizar: 6 dicas práticas para economizar"></option>
+                </datalist>
+
+            </form>
+        </section>
+
+
+
         <h2>Últimas noticias...</h2>
-        <div class="caixas">
 
-            <div class="caixa-item">
-                <img src="https://i-invdn-com.investing.com/news/Eletrobras_800x533_L_1464528161.jpg" alt="noticia"
-                    class="noticia">
-                <p class="legenda">
-                    <a href="https://g1.globo.com/economia/noticia/2025/10/15/dolar-ibovespa.ghtml" target="_blank"
-                        rel="noopener noreferrer">Dólar opera em queda com política monetária dos EUA no radar; bolsa
-                        avança</a>
-            </div>
+        <div class="carrosel">
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
 
-            <div class="caixa-item">
-                <img src="https://cdn.borainvestir.b3.com.br/2022/07/22173445/seisdicasparaeconomizardinheiro-1.jpg.webp"
-                    alt="Crescimento de Patrimônio" class="noticia">
-                <p class="legenda">
-                    <a href="https://borainvestir.b3.com.br/objetivos-financeiros/como-economizar-dinheiro-6-dicas-praticas/?gad_source=1&gad_campaignid=23097327521&gbraid=0AAAAA9U_3stoAYBRtL8t9gxGFhkpLS3b-&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5MhSe8MsUjVMQtGvLr4lSqb0iQXXcGUolxyTi3JdNfPPD16ujnVOUaAjT0EALw_wcB"
-                        target="_blank" rel="noopener noreferrer">
-                        Como economizar: 6 dicas práticas para
-                    </a>
-                </p>
-            </div>
-
-            <div class="caixa-item">
-                <img src="imagens/dolar.jpg.jpg" alt="noticia" class="noticia">
-                <p class="legenda">
-                    <a href="https://g1.globo.com/economia/noticia/2025/10/15/dolar-ibovespa.ghtml" target="_blank"
-                        rel="noopener noreferrer">Dólar opera em queda com política monetária dos EUA no radar; bolsa
-                        avança</a>
-                </p>
-            </div>
-
+            <div class="slides">
+                <div class="slide">
+                    <img src="/imagens/ouro.webp" alt="Imagem 1">
+                    <div class="slide-content">
+            <h3>Dólar dispara e ouro derrete no mercado financeiro</h3>
+            <p>No Brasil, o Senado deve analisar novas emendas ao projeto que isenta do Imposto de Renda quem ganha até R$ 5 mil.</p>
+            <a href="https://www.terra.com.br/economia/dolar-dispara-e-ouro-derrete-no-mercado-financeiro,c3d7c864812960e95ee851b951ff496av6tmfcum.html" class="btn-leia-mais">Leia Mais</a>
         </div>
-    </section>
-
-
-    <section id="contato" class="secao">
-        <h1>Contato</h1>
-        <h3>Preencha o formulário abaixo para entrarmos em contato com você:</h3>
-
-        <div class="form">
-            <form id="myForm" class="formulario">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="telefone">Telefone/Whatsapp:</label>
-                <input type="tel" id="telefone" name="telefone" required>
-
-                <label for="data-nascimento">Data de Nascimento:</label>
-                <input type="date" id="data-nascimento" name="data-nascimento" required>
-
-                <label for="nivel-conhecimento">Nível de conhecimento sobre investimentos:</label>
-                <select id="nivel-conhecimento" name="nivel-conhecimento" required>
-                    <option value="">Selecione</option>
-                    <option value="iniciante">Iniciante (nunca investi)</option>
-                    <option value="intermediario">Intermediário (invisto ocasionalmente)</option>
-                    <option value="avancado">Avançado (tenho experiência)</option>
-                </select>
-
-                <label for="objetivo-financeiro">Qual seu principal objetivo financeiro no momento?</label>
-                <select id="objetivo-financeiro" name="objetivo-financeiro" required>
-                    <option value="">Selecione</option>
-                    <option value="economizar">Criar uma reserva de emergência</option>
-                    <option value="investir">Investir em ações</option>
-                    <option value="pagar-dividas">Pagar dívidas</option>
-                    <option value="outro">Outro</option>
-                </select>
-
-                <label for="mensagem">Nos conte sobre sua principal dificuldade no mundo financeiro:</label>
-                <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
-
-                <div class="consentimento">
-                    <input type="checkbox" id="termos" name="termos" required>
-                    <label for="termos">Eu li e concordo com a <a href="politica-de-privacidade.html"
-                            target="_blank">Política de Privacidade</a> da FinSave.</label>
+                </div>
+                <div class="slide">
+                    <img src="/imagens/inflacao.jpg" alt="Imagem 2">
+                    <div class="slide-content">
+            <h3>Mercado financeiro reduz previsão da inflação para 4,7%</h3>
+            <p>Estimativa para o PIB é 2,17% este ano</p>
+            <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2025-10/mercado-financeiro-reduz-previsao-da-inflacao-para-47" class="btn-leia-mais">Leia Mais</a>
+        </div>
+                </div>
+                <div class="slide">
+                    <img src="/imagens/hacker.webp" alt="Imagem 3">
+                    <div class="slide-content">
+            <h3>Novo ataque hacker desafia setor financeiro após regras do BC</h3>
+            <p>Mercado espera que sejam editadas as regras para o funcionamento do Banking as a Service (BaaS) e para os criptoativos.</p>
+            <a href="https://valorinveste.globo.com/produtos/servicos-financeiros/noticia/2025/10/22/novo-ataque-hacker-desafia-setor-financeiro-apos-regras-do-bc.ghtml" class="btn-leia-mais">Leia Mais</a>
+        </div>
                 </div>
 
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </form>
+                <div class="arrows">
+                    <label for="slide1" class="arrow prev prev-2"></label>
+                    <label for="slide2" class="arrow prev prev-3"></label>
+                    <label for="slide2" class="arrow next next-1"></label>
+                    <label for="slide3" class="arrow next next-2"></label>
+                </div>
+
+            </div>
+
+            <div class="navigation">
+                <label for="slide1" class="nav-btn"></label>
+                <label for="slide2" class="nav-btn"></label>
+                <label for="slide3" class="nav-btn"></label>
+            </div>
         </div>
-    </section>
-    <section class="mapa">
-        <h1>Venha nos conhecer!</h1>
-        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.481078310705!2d-50.886619224405514!3d-21.80033579926738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949426743a132d2d%3A0x7a6e36d60ae9fed6!2sEscola%20Sesi%20de%20Osvaldo%20Cruz%20-%20CE%20283!5e0!3m2!1spt-BR!2sbr!4v1761150545960!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </section>
-    <footer>
-        <p>© 2025 FinSave - Todos os direitos reservados.</p>
-    </footer>
-    <script src="script.js"></script>
+
+
+        <section id="contato" class="secao">
+            <h1>Contato</h1>
+            <h3>Preencha o formulário abaixo para entrarmos em contato com você:</h3>
+
+            <div class="form">
+                <form id="myForm" class="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone/Whatsapp:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+                    <label for="nivel-conhecimento">Nível de conhecimento sobre investimentos:</label>
+                    <select id="nivel-conhecimento" name="nivel-conhecimento" required>
+                        <option value="">Selecione</option>
+                        <option value="iniciante">Iniciante (nunca investi)</option>
+                        <option value="intermediario">Intermediário (invisto ocasionalmente)</option>
+                        <option value="avancado">Avançado (tenho experiência)</option>
+                    </select>
+
+                    <label for="objetivo-financeiro">Qual seu principal objetivo financeiro no momento?</label>
+                    <select id="objetivo-financeiro" name="objetivo-financeiro" required>
+                        <option value="">Selecione</option>
+                        <option value="economizar">Criar uma reserva de emergência</option>
+                        <option value="investir">Investir em ações</option>
+                        <option value="pagar-dividas">Pagar dívidas</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <label for="mensagem">Nos conte sobre sua principal dificuldade no mundo financeiro:</label>
+                    <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+
+                    <div class="consentimento">
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos">Eu li e concordo com a <a href="politica-de-privacidade.html"
+                                target="_blank">Política de Privacidade</a> da FinSave.</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+        </section>
+        <section class="mapa">
+            <h1>Venha nos conhecer!</h1>
+            <div id="map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.481078310705!2d-50.886619224405514!3d-21.80033579926738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949426743a132d2d%3A0x7a6e36d60ae9fed6!2sEscola%20Sesi%20de%20Osvaldo%20Cruz%20-%20CE%20283!5e0!3m2!1spt-BR!2sbr!4v1761150545960!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </section>
+        <footer>
+            <p>© 2025 FinSave - Todos os direitos reservados.</p>
+        </footer>
+        <script src="script.js"></script>
 </body>
+
 </html>
