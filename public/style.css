@@ -456,9 +456,6 @@ footer {
     transform: translateX(-200%);
 }
 
-#slide4:checked ~ .slides {
-    transform: translateX(-300%);
-}
 
 .slide-content {
     position: absolute;
@@ -478,7 +475,7 @@ footer {
     font-size: 20px;
     font-family: Arial, sans-serif;
     line-height: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn-leia-mais {
@@ -517,8 +514,7 @@ footer {
 
 #slide1:checked ~ .navigation .nav-btn[for="slide1"],
 #slide2:checked ~ .navigation .nav-btn[for="slide2"],
-#slide3:checked ~ .navigation .nav-btn[for="slide3"],
-#slide4:checked ~ .navigation .nav-btn[for="slide4"] {
+#slide3:checked ~ .navigation .nav-btn[for="slide3"] {
     background-color: white;
 }
 
