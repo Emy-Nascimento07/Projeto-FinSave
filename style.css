@@ -366,3 +366,13 @@ button.cta-contato {
     color: #333;
     margin-bottom: 5px;
 }
+
+footer {
+    background-color: #e4ffde;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #000000;
+}
