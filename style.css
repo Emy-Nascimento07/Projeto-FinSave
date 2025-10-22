@@ -197,7 +197,7 @@ h3 {
     background-color: white; 
     padding: 20px; 
     border-radius: 15px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05); 
     text-align: center; 
 }
 .noticia {
@@ -266,7 +266,7 @@ button.cta-contato {
 
 #dores-cliente {
     padding: 80px 20px;
-    background-color: #f8fcf9; /* Fundo verde bem clarinho, quase branco */
+    background-color: #f8fcf9; 
     text-align: center;
 }
 
@@ -293,7 +293,7 @@ button.cta-contato {
     background-color: #FFFFFF;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     text-align: center;
     flex-basis: 250px; 
     border-top: 4px solid #e0fde6; 
@@ -354,15 +354,15 @@ button.cta-contato {
     height: 45px;
     border-radius: 25%; 
     background-color: #e0fde6;
-    color: var(--step-number-text);
+    color: #333;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 18px;
     padding-top: 2px;
 }
 
 .step-content h2 {
-    font-size: 1.4em;
+    font-size: 22px;
     font-weight: 600;
-    color: var(--heading-color);
+    color: #333;
     margin-bottom: 5px;
 }
