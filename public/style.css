@@ -434,8 +434,14 @@ footer {
 }
 
 .slide img {
-    width: 100%;
+    width: 900px;
+    height: 600px;
     display: block;
+}
+
+.img {
+    width: 100%;
+    height: auto;
 }
 
 #slide1:checked ~ .slides {
@@ -450,6 +456,10 @@ footer {
     transform: translateX(-200%);
 }
 
+#slide4:checked ~ .slides {
+    transform: translateX(-300%);
+}
+
 .slide-content {
     position: absolute;
     bottom: 0;
@@ -461,17 +471,14 @@ footer {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
 }
 
-.slide-content h3 {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, sans-serif;
-}
+
 
 .slide-content p {
     margin: 8px 0 15px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Arial, sans-serif;
-    line-height: 1.4;
+    line-height: 20px;
+    color: white;
 }
 
 .btn-leia-mais {
@@ -510,7 +517,8 @@ footer {
 
 #slide1:checked ~ .navigation .nav-btn[for="slide1"],
 #slide2:checked ~ .navigation .nav-btn[for="slide2"],
-#slide3:checked ~ .navigation .nav-btn[for="slide3"] {
+#slide3:checked ~ .navigation .nav-btn[for="slide3"],
+#slide4:checked ~ .navigation .nav-btn[for="slide4"] {
     background-color: white;
 }
 
