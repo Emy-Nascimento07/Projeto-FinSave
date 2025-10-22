@@ -30,7 +30,6 @@ app.post("/submit-form", (req, res) => {
   });
 });
 
-console.log("!!! ALERTA: A ROTA /submit-form FOI ACIONADA !!!");
 
 // Iniciar o servidor
 const PORT = process.env.PORT || 3000;
