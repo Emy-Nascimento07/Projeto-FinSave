@@ -752,3 +752,78 @@ footer {
         padding: 15px 10px;
     }
 }
+
+.team-section {
+    max-width: 1200px;
+    margin: 60px auto 0 auto; 
+    padding: 0 20px;
+    text-align: center;
+}
+
+h6{
+    font-size: 20px;
+    text-align: center;
+    color: #1a8232;
+}
+
+.team-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); 
+    padding: 30px 20px;
+    flex-basis: 300px; 
+    flex-grow: 1; 
+    max-width: 350px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.team-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); 
+}
+
+.team-foto{
+    width: 350px;
+    height: 470px;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin: 0 0 5px 0;
+}
+
+.team-cargo {
+    color: #333; 
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+}
+
+@media (max-width: 768px) {
+    .sobre-texto h2 {
+        font-size: 1.8rem;
+    }
+
+    .team-card {
+        flex-basis: 100%; 
+        max-width: 350px;
+    }
+}
+
